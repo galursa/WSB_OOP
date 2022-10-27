@@ -1,0 +1,4 @@
+Today is a october day
+Today is a autumn
+Today is a happy day
+Because we have Object Oriented Programming Course
