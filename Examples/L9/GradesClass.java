@@ -59,14 +59,27 @@ class Grades{
         }
         System.out.println();
     }
+    double average(double ... grade)
+    {
+    	int i = 0;
+    	double sum = 0.0;
+    	for(double element : grade)
+    	{
+    		sum+=element;
+    		i++;
+    	}
+    	return sum/i;
+    }
 }
 
-public class Main
+public class GradesClass
 {
 	public static void main(String[] args) {
 		Grades oop = new Grades();
 		oop.info();
+		System.out.println("Average = "+oop.average(3,3));
 		Grades math = new Grades("Mathematics", 3,4,5);
 		math.info();
+		System.out.println("Average = "+oop.average(oop.grades));
 	}
 }
