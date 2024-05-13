@@ -150,7 +150,7 @@ class CodeWord extends Puzzle
 	{
 		for(int i=65; i<=90; i++)
 		{
-			System.out.print(Integer.toString(i)+" ");
+			System.out.print((char)i+" ");
 		}
 	}
 	
